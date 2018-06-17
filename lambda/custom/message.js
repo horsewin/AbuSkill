@@ -4,23 +4,19 @@ module.exports = {
         "reprompt": "まだいけそう？"
     },
     "count": {
-        // アブアブ
-        "speak": "じゃあ、あと5回カウントするよ。<audio src='https://s3-ap-southeast-2.amazonaws.com/objc-spajam/abu_voice001.mp3' />。まだいけそう？",
+        "speak": "じゃあ、あと5回カウントするよ。アブ。アブ。アブ！アブ！！アブ！！！まだいけそう？",
         "reprompt": "まだいけそう？"
     },
     "bua_count": {
-        // ブアブア
-        "speak": "じゃああと5回！<audio src='https://s3-ap-southeast-2.amazonaws.com/objc-spajam/abu_voice003.mp3' />。だいじょうぶ？",
+        "speak": "じゃああと5回！アブアブアブアブアーーブ。だいじょうぶ？",
         "reprompt": "まだいけそう？"
     },
     "challenge": {
-        // 目を閉じて。筋肉の声を聞いて
-        "speak": "<audio src='https://s3-ap-southeast-2.amazonaws.com/objc-spajam/ouen_voice003.mp3' />。まだいけるよね？",
+        "speak": "目を閉じて。筋肉の声を聞いて。まだいけるよね？",
         "reprompt": "もう無理かな？"
     },
     "cheer": {
-        // 負けそうでも限界まで行っちゃえ
-      "speak": "そうですか。<audio src='https://s3-ap-southeast-2.amazonaws.com/objc-spajam/ouen_voice001.mp3' />。もう無理かな？",
+      "speak": "そうですか。負けそうでも限界まで行っちゃえーー！もう無理かな？",
       "reprompt": "まだいけそう？"
     },
     "error": {
@@ -31,8 +27,7 @@ module.exports = {
         "speak": "よく頑張ったね。ゆっくり休んでね。"
     },
     "help": {
-        // 体がなまってるみんな。運動の時間だよ。
-        "speak": "<audio src='https://s3-ap-southeast-2.amazonaws.com/objc-spajam/ouen_voice005.mp3' />。腕立てしますよね？",
+        "speak": "体がなまってるみんな。運動の時間だよ。腕立てしますよね？",
         "reprompt": "腕立てしますよね？"
     }
 };

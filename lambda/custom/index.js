@@ -6,6 +6,7 @@ const Alexa = require("alexa-sdk");
 
 const STATE = require("./state");
 const MESSAGE = require("./message");
+const appId = require("../../.ask/config").deploy_settings.default.skill_id;
 
 exports.handler = function(event, context) {
     console.log(JSON.stringify(event, ' ', 4));
@@ -19,7 +20,7 @@ exports.handler = function(event, context) {
         ChallengeHandler,
         BuaCountHandler
         );
-    alexa.appId = "amzn1.ask.skill.cac74044-4888-4d5d-875c-23047d9357f9";
+    alexa.appId = appId;
     alexa.execute();
 };
 
